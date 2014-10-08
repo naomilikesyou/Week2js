@@ -1,4 +1,4 @@
 $(document).ready(function(){
-   console.log("OMG JAVASCRIPT")
-   alert($("#celebs tbody tr:even").length + " elements!")
+   console.log("OMG JAVASCRIPT");
+   $("#celebs tbody tr:even").addClass("zebra")
 });
