@@ -11,5 +11,8 @@ $(document).ready(function(){
    				$(this).val('show');
    			}
    		})
-   		$('<p> HIIIIIIIIIIIIIII </p>')
+   		$("<input type='button' id='toggleButton' value='toggle'/>").insertAfter('#disclaimer');
+   		$('#toggleButton').click(function(){
+   			$('#disclaimer').toggle();
+   		});
 });
